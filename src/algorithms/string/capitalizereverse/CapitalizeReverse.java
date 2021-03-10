@@ -1,8 +1,6 @@
-package algorithms.string;
+package algorithms.string.capitalizereverse;
 
 /**
- * 
- * 
  * @author shedger
  * Reverse words in a string and capitalize the first letter.
  * 
