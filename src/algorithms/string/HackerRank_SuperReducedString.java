@@ -2,12 +2,12 @@ package algorithms.string;
 
 public class HackerRank_SuperReducedString {
 	public static void main(String[] args) {
-		String str = "aabbccDD";
-		int i = 1;
-		while(i < str.length()) {
-			if (str.charAt(i - 1) == str.charAt(i)) {
-				str = str.substring(0, i - 1) + str.substring(i + 1); 
-				i = 1;
+		String str = "aabbccDDeef";
+		int i = 0;
+		while(i < str.length() -1) {
+			if (str.charAt(i) == str.charAt(i + 1)) {
+				str = str.substring(0, i) + str.substring(i+2); 
+				i = 0;
 			}else {
 				i++;
 			}
