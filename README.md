@@ -11,5 +11,5 @@
  
  
  LeetCode:
- Palindrome Number (LeetCode 9) : https://leetcode.com/problems/palindrome-number/
- 
+ 1. Palindrome Number (LeetCode 9) : https://leetcode.com/problems/palindrome-number/
+ 2. Factorial_Trailing_Zeroes(LeetCode_172) : https://leetcode.com/problems/factorial-trailing-zeroes/
