@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Integer;
 
 public class LeetCode_9_Integer_Pallindrome {
 	public static void main(String[] args) {

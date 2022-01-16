@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Integer;
 
 public class LeetCode_50_Pow_x_n {
 	private static double pow(double x, double y)

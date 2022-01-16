@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.String;
 
 
 import static org.junit.Assert.assertArrayEquals;

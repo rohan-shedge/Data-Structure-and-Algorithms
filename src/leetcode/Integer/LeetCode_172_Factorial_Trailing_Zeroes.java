@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Integer;
 
 public class LeetCode_172_Factorial_Trailing_Zeroes {
 
