@@ -1,7 +1,6 @@
 package leetcode.Arrays;
 
-import static org.junit.Assert.assertEquals;
-
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class LC_55_Jump_Game {
@@ -21,7 +20,7 @@ public class LC_55_Jump_Game {
     	LC_55_Jump_Game test = new LC_55_Jump_Game();
     	int[] input = {3,2,1,0,4};
     	boolean result = test.canJump(input);
-    	assertEquals(result, false);
+    	Assertions.assertEquals(result, false);
     }
     
 }

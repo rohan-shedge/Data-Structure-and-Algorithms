@@ -1,10 +1,11 @@
 package leetcode.String;
 
-import static org.junit.Assert.assertEquals;
-
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import java.util.Stack;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class LC_394_DecodeString {
 	    public String decodeString(String s) {

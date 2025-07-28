@@ -1,11 +1,10 @@
 package algorithms.string;
 
 import java.nio.charset.Charset;
-import java.util.Arrays;
 import java.util.Base64;
 import java.util.Optional;
 
-public class Try {
+public class HexConversion {
 
 	private static String toHex(String value)
 	{
@@ -23,8 +22,8 @@ public class Try {
 		String hex = "";
 		if (_input != null)
 		{
-			byte[] raw = Base64.decodeBase64(_input);
-			hex = new String(Hex.encodeHex(raw));
+		/*	byte[] raw = Base64.decodeBase64(_input);
+			hex = new String(HexConversion.encodeHex(raw));*/
 		}
 		return hex;
 	}
@@ -40,7 +39,7 @@ public class Try {
         System.out.println("Optional 1: "
                            + op1);
 		
-		System.out.println(Try.toHex("A"));
+		System.out.println(HexConversion.toHex("A"));
 		
 		System.out.println("-------------");
 

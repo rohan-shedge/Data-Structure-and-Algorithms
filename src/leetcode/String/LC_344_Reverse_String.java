@@ -1,9 +1,10 @@
 package leetcode.String;
 
 
-import static org.junit.Assert.assertArrayEquals;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class LC_344_Reverse_String {
 	

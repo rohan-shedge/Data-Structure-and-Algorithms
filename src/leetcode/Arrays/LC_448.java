@@ -5,8 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class LC_448 {
 	public List<Integer> findDisappearedNumbers(int[] nums) {
@@ -31,6 +31,6 @@ public class LC_448 {
 		LC_448 test = new LC_448();
 		int[] input = { 1, 2, 2, 4 };
 		List<Integer> list = test.findDisappearedNumbers(input);
-		Assert.assertEquals(list, Arrays.asList(3));
+		Assertions.assertEquals(list, Arrays.asList(3));
 	}
 }

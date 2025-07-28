@@ -1,7 +1,6 @@
 package leetcode.Arrays;
 
-import static org.junit.Assert.assertArrayEquals;
-
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class LC_75_Sort_Colors {
@@ -36,7 +35,7 @@ public class LC_75_Sort_Colors {
 		LC_75_Sort_Colors test = new LC_75_Sort_Colors();
 		int[] array = { 2, 0, 1 };
 		test.sortColors(array);
-		assertArrayEquals(new int[] { 0, 1, 2 }, array);
+		Assertions.assertArrayEquals(new int[] { 0, 1, 2 }, array);
 	}
 
 }

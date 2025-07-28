@@ -1,14 +1,12 @@
 package leetcode.Arrays;
 
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
-import java.util.OptionalInt;
-import java.util.stream.Stream;
-import org.junit.Assert;
-import org.junit.jupiter.api.Test;
 
 public class LC_1431 {
 
@@ -32,7 +30,7 @@ public class LC_1431 {
 		int[] inputArray = { 12, 1, 12 };
 		List<Boolean> actualArray = test.kidsWithCandies(inputArray, 10);
 		List<Boolean> expectedArray = Arrays.asList(true, false, true);
-		Assert.assertEquals(actualArray, expectedArray);
+		Assertions.assertEquals(actualArray, expectedArray);
 	}
 
 }

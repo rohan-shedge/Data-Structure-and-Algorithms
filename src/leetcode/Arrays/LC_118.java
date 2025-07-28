@@ -1,11 +1,10 @@
 package leetcode.Arrays;
 
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
-
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class LC_118 {
@@ -45,7 +44,7 @@ public class LC_118 {
 		expected.add(Arrays.asList(1, 3, 3, 1));
 		expected.add(Arrays.asList(1, 4, 6, 4, 1));
 
-		Assert.assertEquals(expected, actual);
+		Assertions.assertEquals(expected, actual);
 	}
 
 }

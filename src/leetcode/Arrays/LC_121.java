@@ -1,6 +1,6 @@
 package leetcode.Arrays;
 
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class LC_121 {
@@ -24,8 +24,8 @@ public class LC_121 {
 	@Test
 	public void test() {
 		LC_121 test = new LC_121();
-		int[] inputArray = { 2, 1, 2, 1, 0, 1, 2 };
+		int[] inputArray = {  2,1,2,1,0,1,2 };
 		int result = test.maxProfit(inputArray);
-		Assert.assertEquals(2, result);
+		Assertions.assertEquals(2, result);
 	}
 }

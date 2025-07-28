@@ -1,8 +1,7 @@
 package leetcode.String;
 
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class LC_14_Longest_CommonPrefix {
 
@@ -19,7 +18,7 @@ public class LC_14_Longest_CommonPrefix {
 	@Test
 	public void test() {
 		String[] strs = {"flower","flow","abcight"};
-		assertEquals(longestCommonPrefix(strs),"");
+		Assertions.assertEquals(longestCommonPrefix(strs),"");
 	}
 }
 

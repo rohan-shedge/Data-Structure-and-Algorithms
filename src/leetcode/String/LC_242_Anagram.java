@@ -1,13 +1,11 @@
 package leetcode.String;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
-import java.util.function.ToIntFunction;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class LC_242_Anagram {
 

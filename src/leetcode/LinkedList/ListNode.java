@@ -1,0 +1,9 @@
+package leetcode.LinkedList;
+
+public class ListNode {
+    int val;
+    public ListNode next;
+    ListNode(int data) {
+        this.val = data;
+    }
+}

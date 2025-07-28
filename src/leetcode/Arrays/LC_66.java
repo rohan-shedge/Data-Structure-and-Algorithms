@@ -1,8 +1,7 @@
 package leetcode.Arrays;
 
-import static org.junit.Assert.assertArrayEquals;
-
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;;
 
 public class LC_66 {
     public int[] plusOne(int[] digits) {
@@ -30,6 +29,6 @@ public class LC_66 {
     	int[] inputArray = {9, 9, 9, 9, 9};
     	int[] actualArray = test.plusOne(inputArray);
     	int[] expected = {1, 0, 0, 0, 0, 0};
-    	assertArrayEquals(expected, actualArray);
+    	Assertions.assertArrayEquals(expected, actualArray);
     }
 }

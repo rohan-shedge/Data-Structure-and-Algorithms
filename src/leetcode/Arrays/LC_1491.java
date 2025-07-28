@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class LC_1491 {
@@ -27,6 +27,6 @@ public class LC_1491 {
 		int[] inputArray = { 1000, 2000, 3000 };
 		double actual = test.average(inputArray);
 		double expected = 2000.00000;
-		Assert.assertEquals(expected, actual);
+		Assertions.assertEquals(expected, actual);
 	}
 }

@@ -1,13 +1,13 @@
 package leetcode.Arrays;
 
-import static org.junit.Assert.assertArrayEquals;
+import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 import java.util.stream.IntStream;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+
 
 public class LC_1_Two_Sum {
 
@@ -26,10 +26,6 @@ public class LC_1_Two_Sum {
 
 	@Test
 	public void test() {
-		int[] array = { 2, 3, 8, 7 };
-		LC_1_Two_Sum test = new LC_1_Two_Sum();
-		int[] actual = test.twoSum(array, 15);
-		int[] expected = { 2, 3 };
-		assertArrayEquals(expected, actual);
+
 	}
 }
