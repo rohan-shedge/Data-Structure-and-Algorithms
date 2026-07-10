@@ -1,29 +1,19 @@
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-
 public class Test {
     public static void main(String[] args) {
-        System.out.println("Testing");
+        int num1 = 9;
+        int num2 = 12;
         Test test = new Test();
-        System.out.println(test.maxProfit(new int[] {7,1,5,3,6,4}));
-
+        System.out.println(test.gcd(num1, num2));
     }
 
-    public int maxProfit(int[] prices) {
-        int base = prices[0];
-        int profit = 0;
-        if (prices.length == 1) return 0;
-        for (int i = 1; i < prices.length; i++) {
-            if (base > prices[i]) {
-                base = prices[i];
-                continue;
-            } else if (prices[i] - base > profit) {
-                profit = prices[i] - base;
+    private int gcd(int num1, int num2) {
+        int gcd = 1;
+        for (int i = 2; i < Math.min(num1, num2); i++) {
+            if ((num1 % i == 0) && (num2 % i == 0)) {
+                gcd = i;
             }
         }
-        return profit;
+        return gcd;
     }
 }
 
