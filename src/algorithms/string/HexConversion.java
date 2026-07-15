@@ -39,7 +39,7 @@ public class HexConversion {
         System.out.println("Optional 1: "
                            + op1);
 		
-		System.out.println(HexConversion.toHex("A"));
+		System.out.println(HexConversion.toHex("highestLowestFrequencyElement"));
 		
 		System.out.println("-------------");
 
